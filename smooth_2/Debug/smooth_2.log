@@ -1,0 +1,50 @@
+﻿  main123.cpp
+c:\users\никита\desktop\никита\программирование\smooth_\smooth_\main123.cpp(117): warning C4018: >=: несоответствие типов со знаком и без знака
+c:\users\никита\desktop\никита\программирование\smooth_\smooth_\main123.cpp(119): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+c:\users\никита\desktop\никита\программирование\smooth_\smooth_\main123.cpp(120): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\никита\desktop\никита\программирование\smooth_\smooth_\main123.cpp(136): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\никита\desktop\никита\программирование\smooth_\smooth_\main123.cpp(146): warning C4018: >=: несоответствие типов со знаком и без знака
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\numeric(26): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\numeric(36): note: выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  c:\users\никита\desktop\никита\программирование\smooth_\smooth_\main123.cpp(38): note: выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(2414): warning C4244: аргумент: преобразование "double" в "const _Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(2434): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)"
+          with
+          [
+              _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+              _InIt=double *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(2445): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::_Copy_unchecked<double*,_Iter>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+              _Iter=std::ostream_iterator<int,char,std::char_traits<char>>,
+              _InIt=double *
+          ]
+  c:\users\никита\desktop\никита\программирование\smooth_\smooth_\main123.cpp(126): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::ostream_iterator<int,char,std::char_traits<char>>>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=std::ostream_iterator<int,char,std::char_traits<char>>,
+              _Ty=double,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  smooth_2.vcxproj -> C:\Users\Никита\Desktop\Никита\ПРограммирование\smooth_2\Debug\smooth_2.exe
